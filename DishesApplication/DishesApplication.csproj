@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="icon-basket.png" />
+		<None Remove="icon-magnifier.png" />
+		<None Remove="icon-minus-sign-of-a-line-in-horizontal-position.png" />
+		<None Remove="icon-pencil-tool.png" />
+		<None Remove="icon-plus.png" />
+		<None Remove="icon-quit.png" />
+		<None Remove="icon-user-profile.png" />
+		<None Remove="logo.png" />
+		<None Remove="picture.png" />
+		<None Remove="redact-icon.png" />
+		<None Remove="А112Т4.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EntityFramework" Version="6.5.1" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="icon-basket.png" />
+		<Resource Include="icon-magnifier.png" />
+		<Resource Include="icon-minus-sign-of-a-line-in-horizontal-position.png" />
+		<Resource Include="icon-pencil-tool.png" />
+		<Resource Include="icon-plus.png" />
+		<Resource Include="icon-quit.png" />
+		<Resource Include="icon-user-profile.png" />
+		<Resource Include="logo.png">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="picture.png" />
+		<Resource Include="redact-icon.png" />
+		<Resource Include="А112Т4.jpg" />
+	</ItemGroup>
+
+</Project>
